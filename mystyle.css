@@ -1,0 +1,152 @@
+/* Mystyle.css */
+
+/* 
+ * It's not recommend you edit the code between the Start Position CSS and End Position CSS comments unless you really know what
+ * you're doing.  If you do, you could break the layout, and you could experience a lot of wacky behaviour.
+ * 
+ **/
+
+body { 
+	/*Start Position CSS*/
+	margin: 0;
+	padding: 1em;
+	/*End Position CSS*/
+	color: #d2d2d2;
+		background-color: #282828;
+}
+
+.header { 
+	
+	/*Start Position CSS*/
+	height: 54px; 	
+	padding: 1em;
+	/*End Position CSS*/	
+
+	background-image:url(images/header.jpg);	
+	background-repeat: round;
+		
+	text-align: center;	
+	font: bold 3em serif;	
+}
+
+.maintext { 
+	
+	/*Start Position CSS*/	
+	float: left;
+	margin: 0;
+	padding: 1em;	
+	/*End Position CSS*/	
+}
+
+.links { 
+
+	/*Start Position CSS*/
+	width: 150px;
+	float: left;
+	margin: 0;
+	padding: 1em;
+	bottom: 0px;
+	/*End Position CSS*/	
+
+}
+
+h1 {
+	all: unset;
+	color: black;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+h4 {
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.container { 
+	/*Start Position CSS*/
+	max-width: 855px;
+	margin: auto;
+	text-align: left;
+	/*End Position CSS*/
+}
+
+table, th, td {
+	border: 1px dotted white;
+	text-align: center;
+}
+
+.footer {
+	clear: both;
+	background: black;
+	padding: 15px;
+}
+
+/* NAVIGATION BAR */
+ul.nav
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li.nav 
+{
+	float: left;
+	margin-top: 0em;
+}
+
+li.nav a 
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li.nav a:hover 
+{
+	background-color: #111;
+}
+
+/* LINKS */
+a
+{
+	text-decoration: underline;
+}
+
+a:link
+{
+	color: #1fff4f;
+}
+
+a:active
+{
+	color: #68ff88
+}
+
+a:hover
+{
+	color: #68ff88;
+}
+
+a:visited
+{
+	color: #15da3f;
+}
